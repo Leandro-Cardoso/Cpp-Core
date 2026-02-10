@@ -2,6 +2,8 @@
 #include <string>
 #include <conio.h>
 
+using namespace std;
+
 // INICIALIZA SEM VALOR PADRÃO:
 class Pessoa {
 private:
@@ -10,16 +12,21 @@ private:
 public:
     Pessoa(string nome, int idade);
     ~Pessoa();
+    string getNome();
 };
 
 Pessoa::Pessoa(string nome, int idade) {
     this->nome = nome;
     this->idade = idade;
-}
+};
 
-Pessoa::~Pessoa(
+Pessoa::~Pessoa() {
     cout << "Objeto destruído" << endl;
-)
+};
+
+string Pessoa::getNome() {
+    return this->nome;
+};
 
 // INICIALIZA COM VALOR PADRÃO:
 /*
@@ -38,3 +45,8 @@ Pessoa::~Pessoa(
     cout << "Objeto destruído" << endl;
 )
 */
+
+int main() {
+    Pessoa pessoa = Pessoa("Leandro", 36);
+    cout << pessoa.getNome() << endl;
+};
