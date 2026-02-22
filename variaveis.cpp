@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits> // Para ver os limites.
 #include <iomanip> // Para ver o cout com mais precisao.
 
 using namespace std;
@@ -8,17 +9,15 @@ int main() {
     int algoMais = 10; // Com valor padrão.
 
     // Reservar memoria:
-    bool ligado = true;                             // Variabel binária (verdadeira 1 ou falsa 0) (1 byte ou 8 bits).
-    char letra = 'L';                               // Variavel caracter (1 byte ou 8 bits).
-    short numeroMenor = 32000;                      // Variavel inteira (2 bytes ou 16 bits).
-    int numero = 2000000000;                        // Variavel inteira (4 bytes ou 32 bits).
-    float decimalResumida;                          // Variavel decimal aproximada (4 bytes ou 32 bits).
-    long long numeroGrande = 9000000000000000000LL; // Variavel inteira (8 bytes ou 64 bits).
-    double decimalPrecisa;                          // Variavel decimal com precisão (8 bytes ou 64 bits).
-    long double decimalMuitoPrecisa;                // Variavel decimal com muita precisão (16 bytes ou 128 bits).
-    string texto = "Leandro";                       // Variavel de texto.
-
-    // TODO: FAZER REPRESENTACOES DOS DECIMAIS.
+    bool ligado = true;                                        // Variabel binária (verdadeira 1 ou falsa 0).
+    char letra = 'L';                                          // Variavel caracter.
+    short numeroMenor = numeric_limits<short>::max();          // Variavel inteira                    (10).
+    int numero = numeric_limits<int>::max();                   // Variavel inteira                    (10).
+    float decimalResumida = numeric_limits<float>::max();      // Variavel decimal aproximada         (10.11f).
+    long long numeroGrande = numeric_limits<long long>::max(); // Variavel inteira                    (10LL).
+    double decimalPrecisa = numeric_limits<double>::max();     // Variavel decimal com precisão       (10.11).
+    long double decimalMuitoPrecisa = 0.0;                     // Variavel decimal com muita precisão (10.11L).
+    string texto = "Leandro";                                  // Variavel de texto.
 
     // Tamanhos:
     cout << endl << "> TAMANHOS: ";
