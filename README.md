@@ -3,7 +3,9 @@
 ## Basico:
 
 * [000 - Base](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/base.cpp)
-* [001 - Variaveis](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/variaveis.cpp)
+* [001 - Variaveis (base)](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/variaveis.cpp)
+* [002 - Variaveis (declaracaoo multipla, macros, constantes, variaveis globais e locais)](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/variaveis2.cpp)
+* [003 - Operadores matematicos](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/operadores.cpp)
 
 ## Intermediario:
 
