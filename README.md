@@ -9,6 +9,7 @@
 * [004 - Condicionais e operadores logicos](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/condicionais.cpp)
 * Go to (Compensa em algum momento?)
 * Loops
+* [010 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
 
