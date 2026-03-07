@@ -8,9 +8,9 @@ int main() {
     // If e else:
     cout << endl << "IF E ELSE:" << endl;
     if(condicao) {
-        cout << "\t" << condicao << " é verdadeiro." << endl;
+        cout << "\t" << condicao << " e verdadeiro." << endl;
     } else {
-        cout << "\t" << condicao << " é falso." << endl;
+        cout << "\t" << condicao << " e falso." << endl;
     }
     // Tambem existe o "else if() {}".
 
@@ -23,7 +23,7 @@ int main() {
     cout << endl << "OPERADOR TERNARIO:" << endl;
     int numero = 2;
     string resposta = (numero % 2 == 0) ? "par" : "impar";
-    cout << "\tO numero " << numero << " é " << resposta << "." << endl;
+    cout << "\tO numero " << numero << " e " << resposta << "." << endl;
 
     return 0;
 }

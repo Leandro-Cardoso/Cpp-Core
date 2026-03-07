@@ -7,8 +7,7 @@
 * [002 - Variaveis (declaracaoo multipla, macros, constantes, variaveis globais e locais)](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/variaveis2.cpp)
 * [003 - Operadores matematicos](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/operadores.cpp)
 * [004 - Condicionais e operadores logicos](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/condicionais.cpp)
-* Go to (Compensa em algum momento?)
-* Loops
+* [005 - Switch](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/switch.cpp)
 * [010 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
