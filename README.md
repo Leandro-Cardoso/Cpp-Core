@@ -9,6 +9,7 @@
 * [004 - Condicionais e operadores logicos](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/condicionais.cpp)
 * [005 - Switch](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/switch.cpp)
 * [006 - While](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/while.cpp)
+* [007 - Do while](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/doWhile.cpp)
 * [010 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
