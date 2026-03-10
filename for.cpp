@@ -9,7 +9,7 @@ int main() {
     cin >> opcao;
     cout << "Voce digitou '" << opcao << "' !!!" << endl;
 
-    for (int i = 0; i == opcao; ++i) {
+    for (int i = 0; i <= opcao; i++) {
         cout << endl << i;
     }
 
