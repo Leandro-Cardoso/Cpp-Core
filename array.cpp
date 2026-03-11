@@ -2,9 +2,6 @@
 
 using namespace std;
 
-// TODO: Por no for:
-// O for pode ser passado mais de uma variavel ou incrementado ou decrementado mais de uma variavel.
-
 int main() {
     int vector[5];
     int vector2[5] = {10, 20, 30, 40, 50};
