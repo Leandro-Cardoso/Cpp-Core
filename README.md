@@ -11,6 +11,7 @@
 * [006 - While](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/while.cpp)
 * [007 - Do while](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/doWhile.cpp)
 * [008 - For](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/for.cpp)
+* [009 - Array](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/array.cpp)
 * [010 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
