@@ -14,7 +14,8 @@
 * [009 - Array](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/array.cpp)
 * [010 - Matrises](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/matriz.cpp)
 * [011 - Argc e argv na funcao main()](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/promptArg.cpp)
-* [012 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
+* [012 - Funcoes](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/promptArg.cpp)
+* [013 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
 
