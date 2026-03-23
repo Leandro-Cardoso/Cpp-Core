@@ -1,20 +1,32 @@
 #include <iostream>
 
-int toBinary(int n);
+int mod(int number, int divider);
+void toBinary(int n);
 
 int main() {
-    std::cout << toBinary(17);
+    toBinary(17);
 
     return 0;
 }
 
-int toBinary(int n) {
-    int b = 2;
-    int[] result 
+int mod(int number, int divider) {
+    while (number >= divider) {
+        number = number - divider;
+    }
+    return number;
+}
 
-    do {
-        //
-    } while (n == 1);
+void toBinary(int n) {
+    int result[32];
+    int i = 0;
 
-    return n;
+    while (n > 0) {
+        result[i] = mod(n, 2);
+        n = n / 2;
+        i++;
+    }
+
+    for (int j = i - 1; j >= 0; j--) {
+        std::cout << result[j];
+    }
 }

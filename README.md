@@ -35,3 +35,4 @@
 ## Desafios:
 
 * [**mod()** - Retorna o resto da divisão](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/mod.cpp)
+* [**toBinary()** - Converte um numero inteiro em binário](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/binario.cpp)
