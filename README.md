@@ -31,3 +31,7 @@
 
 * [000 - Ponteiros](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/ponteiros.cpp)
 * [001 - Template](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/template.cpp)
+
+## Desafios:
+
+* [**mod()** - Retorna o resto da divisão](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/mod.cpp)
