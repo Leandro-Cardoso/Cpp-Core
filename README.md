@@ -19,7 +19,8 @@
 * [014 - Funcao recursiva](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/funcaoRecursiva.cpp)
 * [015 - Enum](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/enum.cpp)
 * [016 - Pilha](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/pilha.cpp)
-* [017 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
+* [017 - Lista](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/pilha.cpp)
+* [018 - Namespace](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/namespace.cpp)
 
 ## Intermediario:
 
