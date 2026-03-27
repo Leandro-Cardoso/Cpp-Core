@@ -1,7 +1,4 @@
 #include <iostream>
-#include <conio.h>
-
-using namespace std;
 
 struct Pessoa
 {
@@ -14,23 +11,39 @@ int main() {
     int numero = 5;
 
     // Acessando informações da variavel:
-    cout << endl << "Valor: " << numero << endl;
-    cout << "Posição de memoria: " << &numero << endl;
+    std::cout << "\nValor: " << numero << "\n";
+    std::cout << "Posição de memoria: " << &numero << "\n";
 
     // Criando ponteiro:
     int *ponteiro = &numero;
 
     // Acessando informações do ponteiro:
-    cout << endl << "Posição de memoria do ponteiro: " << ponteiro << endl;
-    cout << "Valor: " << *ponteiro << endl;
+    std::cout << "\nPosição de memoria do ponteiro: " << ponteiro << "\n";
+    std::cout << "Valor: " << *ponteiro << "\n";
 
     // Com objetos e estruturas:
-    Pessoa pessoa = Pessoa();
-    cout << endl << "ID: " << pessoa.id << endl << "IDADE: " << pessoa.idade << endl;
+    Pessoa pessoa;
+    std::cout << "\nID: " << pessoa.id << "\nIDADE: " << pessoa.idade << "\n";
 
     // Com objetos e estruturas (ponteiro):
     Pessoa *pessoaPonteiro = &pessoa;
-    cout << endl << "ID: " << pessoaPonteiro->id << endl << "IDADE: " << pessoaPonteiro->idade << endl;
+    std::cout << "\nID: " << pessoaPonteiro->id << "\nIDADE: " << pessoaPonteiro->idade << "\n";
+
+    // Endereços em uma lista:
+    int *p;
+    int vetor[5];
+    std::cout << "\nEnderecos:\n";
+    for (int i = 0; i < 5; i++) {
+        p = &vetor[i];
+        // Diferenca de 4 porque int tem 4 bytes:
+        std::cout << "\t" << p << "\n";
+    }
+
+    // Alterar valor de um endereco:
+    *p = 10;
+    std::cout << "\nEndereco: " << p << "\nValor: " << *p;
+
+    std::cout << "\n\n";
 
     return 0;
 }

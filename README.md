@@ -22,6 +22,7 @@
 * [017 - Pilha](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/pilha.cpp)
 * [018 - Lista](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/pilha.cpp)
 * [019 - Struct](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/struct.cpp)
+* [020 - Ponteiros](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/ponteiros.cpp)
 
 ## Intermediario:
 
@@ -31,8 +32,7 @@
 
 ## Avançado:
 
-* [000 - Ponteiros](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/ponteiros.cpp)
-* [001 - Template](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/template.cpp)
+* [000 - Template](https://github.com/Leandro-Cardoso/Cpp-Core/blob/main/template.cpp)
 
 ## Desafios:
 
